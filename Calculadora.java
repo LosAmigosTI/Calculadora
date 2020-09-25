@@ -50,6 +50,7 @@ public class Calculadora {
 			System.out.println(d);
 		break;
 		}
+		
 	}
 }
 

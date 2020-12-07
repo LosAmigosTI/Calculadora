@@ -30,27 +30,26 @@ public class Calculadora {
 		System.out.println("digite os numeros");
 		b = opcao.nextInt();
 		
-		while( c == 1) {
+		switch(c) {
+		case 1:
+			 
 			d = a + b;
 			System.out.println(d);
-		break;
-		}
-		while( c == 2) {
+			break;
+		
+		case 2:
 			d = a - b;
 			System.out.println(d);
-		break;
-		}
-		while( c == 3) {
+			break;
+		case 3:
 			d = a * b;
 			System.out.println(d);
-		break;
-		}
-		while( c == 4) {
+			break;
+		case 4:
 			d = a / b;
 			System.out.println(d);
-		break;
+			break;
 		}
-		
 	}
 }
 

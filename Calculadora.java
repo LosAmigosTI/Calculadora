@@ -19,11 +19,6 @@ public class Calculadora {
 		System.out.println("4 para div");
 		System.out.println("Digite a opcao escolhida");
 		c= opcao.nextInt();
-		while(c > 4) {
-			System.out.println("Numero invalido por favor digitar novamente");
-			System.out.println("digite novamente");
-			c=opcao.nextInt();
-		break;
 		}
 		System.out.println("digite os numeros");
 		a = opcao.nextInt();
@@ -49,7 +44,11 @@ public class Calculadora {
 			d = a / b;
 			System.out.println(d);
 			break;
+		default:
+			System.out.println("Numero incorreto refaça novamente a operação.");
+			break;
 		}
+		opcao.close();
 	}
 }
 
